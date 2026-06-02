@@ -1,6 +1,6 @@
 # ExpNo:10 Implementation of Classical Planning Algorithm
 
-<h3>Name: Hemapriya K </h3>
+<h3>Name: Hemapriya K  </h3>
 <h3>Register Number:  212223040066 </h3>
 
 ## Algorithm or Steps Involved:
