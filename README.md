@@ -3,7 +3,10 @@
 <h3>Name: Hemapriya K  </h3>
 <h3>Register Number:  212223040066 </h3>
 
-## Algorithm or Steps Involved:
+# Aim
+To solve Implementation of Classical Planning Algorithm using python
+
+# Algorithm or Steps Involved:
 <ol>
   <li>Define the initial state</li>
   <li>Define the goal state</li>
@@ -12,7 +15,7 @@
   <li>Print the plan</li>
 </ol>
 
-## Example - 1
+# Example - 1
 ```
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
@@ -25,11 +28,11 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-## Output:
+# Output:
 ```
 ['move_A_to_B']
 ```
-## Example - 2
+# Example - 2
 ```
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
@@ -43,14 +46,21 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-## Output:
+# Output:
 ```
 ['move_A_to_B', 'move_B_to_C']
 ```
 
-## Program
+# Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
+<h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
 
-```python
+# Program
+
+```
+Name: Dario G
+Register Number: 212222230027
+```
+```
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -118,8 +128,9 @@ plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
 
-## Output
-![image](https://github.com/user-attachments/assets/316122e3-2dbc-4733-80d7-07c04ed13650)
+# Output
 
-## Result
-Therefore, the Classical Planning Algorithm has been implemented successfully.
+![image](https://github.com/user-attachments/assets/3504400b-c02e-4383-8b8d-7d0f0a521f74)
+
+# Result
+Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
